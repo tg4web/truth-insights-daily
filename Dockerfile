@@ -2,7 +2,7 @@ FROM node:alpine
 
 RUN mkdir /app
 
-COPY package.json ./app
+COPY ./app/package.json ./app
 
 WORKDIR /app
 
